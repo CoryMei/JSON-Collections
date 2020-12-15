@@ -1,0 +1,116 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  font-family:sans-serif;
+  margin-bottom: 60px;
+}
+
+.navMenu {
+  position: fixed;
+  background-color: #0AB68B;
+  width: 100%;
+}
+
+.navMenu > a {
+  float: left;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration:none;
+  font-size: 18px;
+  font-family: 'Staatliches', cursive;
+}
+
+.navMenu > a:hover {
+  text-decoration: underline;
+  background-color: #92DE8B;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: white;
+}
+
+a:hover{
+  transform: scale(1.05);
+  color: #0AB68B;
+}
+
+a:active{
+  color: #0AB68B;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+
+.title {
+  font-size: 7vmin;
+  color: white;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  margin: 12vmin 0px 0px 0px;
+}
+
+.title > h1 {
+  margin-bottom: 0px;
+}
+
+.mhSec, .bkSec {
+  font-size: 3.6vmin;
+  color: white;
+  font-family:serif;
+  display: flex;
+  justify-content:center;
+  margin-top: 6vmin;
+}
+
+#mhFridge, #bkFridge {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2.5vmin;
+  grid-row-gap: 5.5vmin;
+  background-color: rgb(37 25 4 / 22%);
+  padding: 4vmin;
+  font-size: 3.3vmin;
+}
+
+.contentItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1vmin;
+  color: #eee;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.12);
+  box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.12);
+  border: 2px solid #eee;
+  border-radius:18px;
+  height: 100%;
+}
+
+.placeName{
+  font-size: 5vmin;
+  text-align: center;
+  padding: 2vmin;
+}
+
+.placeNeighborhood{
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
